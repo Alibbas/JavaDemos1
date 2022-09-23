@@ -1,0 +1,28 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		String message = "Bugün hava çok güzel.";
+		String newMessage = message.substring(0, 2);
+		System.out.println(newMessage);
+		int number = plus(5, 13);
+		System.out.println("Sayı toplamı: " + number);
+	}
+
+	public static void add() {
+	}
+
+	public static void delete() {
+		System.out.println("Silindi.");
+	}
+
+	public static void update() {
+		System.out.println("Güncellendir..");
+	}
+
+	public static int plus(int number1, int number2) {
+		int tmp = number1 + number2;
+		return tmp;
+	}
+
+}

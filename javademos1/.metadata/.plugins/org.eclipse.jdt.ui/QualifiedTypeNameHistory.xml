@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ"/>
+    <fullyQualifiedTypeName name="sun.tools.serialver.resources.serialver"/>
+    <fullyQualifiedTypeName name="classes.CustomerManager"/>
+    <fullyQualifiedTypeName name="DortIslem"/>
+    <fullyQualifiedTypeName name="Product"/>
+    <fullyQualifiedTypeName name="ProductManager"/>
+</qualifiedTypeNameHistroy>

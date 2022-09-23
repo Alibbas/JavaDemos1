@@ -1,0 +1,9 @@
+public class Main {
+
+	public static void main(String[] args) {
+		OgretmenKrediManager ogretmenKrediManager1 = new OgretmenKrediManager();
+		ogretmenKrediManager1.Hesapla();
+		TarimKrediManager tarimKrediManager = new TarimKrediManager();
+		tarimKrediManager.Hesapla();
+	}
+}

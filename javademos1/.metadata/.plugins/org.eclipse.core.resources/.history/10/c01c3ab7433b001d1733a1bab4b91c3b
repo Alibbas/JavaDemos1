@@ -1,0 +1,23 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Product product = new Product();
+		product.setName(Laptop);
+		product.setId(11);
+		product.description = "Monster Laptop";
+		product.price = 5300;
+		product.stockAmount = 10;
+		product.renk = "";
+
+		ProductManager productManager = new ProductManager();
+		productManager.Add(product);
+
+		productManager.Add2(4, "neym", "isim", 2, 254);
+		productManager.Add2(4, "neym", "isim", 2, 254);
+		productManager.Add2(4, "neym", "isim", 2, 254);
+		productManager.Add2(4, "neym", "isim", 2, 254);
+
+	}
+
+}

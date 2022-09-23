@@ -1,0 +1,18 @@
+package classes;
+
+public class Main {
+
+	public static void main(String[] args)  {
+		//reference type
+		CustomerManager customerManager1 = new CustomerManager();
+		CustomerManager customerManager2 = new CustomerManager();
+		customerManager1 = customerManager2;
+		
+		customerManager1.Add();
+		customerManager1.Remove();
+		customerManager1.Update();
+		
+		//
+	}
+
+}
